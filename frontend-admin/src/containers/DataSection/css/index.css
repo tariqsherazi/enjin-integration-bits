@@ -1,0 +1,13 @@
+.uploadBtn {
+    border: 2px solid #161624;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionMobView {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

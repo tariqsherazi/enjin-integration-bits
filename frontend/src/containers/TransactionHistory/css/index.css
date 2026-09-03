@@ -1,0 +1,111 @@
+.dropdownView {
+  background-color: #cccccc !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.dropdownView:hover {
+  color: #5c5b5b !important;
+}
+
+.transactionsList {
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.ant-dropdown-menu {
+  border-radius: 10px !important;
+}
+.depositeBtn {
+  margin-right: 1rem;
+  background: #78f785;
+  border-radius: 10px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  height: 35px;
+  width: 134px;
+  color: #ffffff;
+  border: none;
+}
+
+.withdrawBtn {
+  margin-right: 1rem;
+  background: #ff5858;
+  border-radius: 10px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  height: 35px;
+  width: 134px;
+  color: #ffffff;
+  border: none;
+}
+
+.transaction-main-Wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-main-Wrapper h4 {
+  margin-top: 1.4rem;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.ant-select {
+  border: 1px solid #cd3c3c;
+  border-radius: 8px;
+  margin-right: 3rem !important;
+}
+.ant-select-selector {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.ant-light .ant-select-selector {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+.ant-select-arrow .anticon {
+  color: #ffffff !important;
+}
+
+.ant-light .ant-select-arrow .anticon {
+  color: #000 !important;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  box-shadow: none !important;
+}
+
+h3 {
+  margin-left: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .transactionFirstView {
+    flex-direction: column;
+  }
+  .mobMargin {
+    margin-top: 30px;
+  }
+}

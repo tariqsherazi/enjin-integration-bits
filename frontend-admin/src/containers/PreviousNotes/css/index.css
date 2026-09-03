@@ -1,0 +1,39 @@
+.dropdownStyle {
+    background-color: #F7F8FC !important;
+}
+
+.dropdownStyle:hover {
+    color: black !important;
+    border: 1px solid #bbbcbe;
+    box-shadow: none !important;
+}
+
+.readBtn{
+    background-color: transparent !important;
+    color: #A82929 !important;
+    border: 1px solid #A82929 !important;
+    border-radius: 20px !important;
+    height: 30px !important;
+}
+
+.notesBtn{
+    background-color: transparent !important;
+    color: #A82929 !important;
+    border: 1px solid #A82929 !important;
+    border-radius: 10px !important;
+}
+
+.notesView{
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .notesView{
+        flex-direction: column;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .addNotes{
+        margin-top: 15px;
+    }
+}

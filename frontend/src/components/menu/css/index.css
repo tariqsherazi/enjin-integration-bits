@@ -1,0 +1,24 @@
+.manuStyle {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border-top-right-radius: 40px;
+  box-shadow: none;
+  min-height: 96vh;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: rgb(167, 161, 161) !important;
+}
+
+.ant-menu-submenu .ant-menu-sub {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.ant-dropdown-menu {
+  max-height: 250px;
+  overflow: auto;
+}
+
+/* .ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+  cursor: not-allowed;
+} */

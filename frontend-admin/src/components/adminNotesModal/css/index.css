@@ -1,0 +1,25 @@
+.toolbarClassName {
+    background-color: #C4C4C4  !important;
+}
+
+.wrapperClassName {
+    background-color: #F0F0F0 !important;
+}
+
+.editorClassName {
+    background-color: #F0F0F0 !important;
+    padding-left: 10px;
+    color: #696767 !important;
+
+}
+
+.modalInputStyle {
+    border: none !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+}
+
+.modalInputStyle:focus {
+    border: none !important;
+    box-shadow: none !important;
+}

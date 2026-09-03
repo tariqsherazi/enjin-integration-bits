@@ -1,0 +1,28 @@
+.shadowBorder {
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background-color: #191919;
+}
+
+.cardsPadding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text h4 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardsPadding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

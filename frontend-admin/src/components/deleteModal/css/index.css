@@ -1,0 +1,43 @@
+.delete-modal .ant-modal-content {
+  border-radius: 10px;
+}
+
+.modal-wrapper {
+  border-radius: 100px;
+}
+
+.main-text {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+
+.buttons-div {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dlt-cancel-btn {
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  background-color: rgba(134, 134, 134, 1);
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.dlt-confirm-btn {
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  background-color: rgba(255, 78, 78, 1);
+  padding: 5px 20px;
+  border-radius: 5px;
+}

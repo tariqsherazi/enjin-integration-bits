@@ -1,0 +1,17 @@
+.shadowBorder {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+@media only screen and (max-width: 600px) {
+    .paymentMethodCard{
+        flex-direction: column;
+    }
+    .paymentMethodCardContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .withdrawRequest{
+        margin-top: 20px;
+    }
+}

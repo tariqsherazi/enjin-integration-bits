@@ -1,0 +1,36 @@
+.borderBottom {
+  border-right: 1px solid #b23232;
+  padding-right: 20px;
+}
+
+.supplyView {
+  margin-left: 80px;
+}
+
+.cancelBtn {
+  border-radius: 20px !important;
+  height: 40px !important;
+  /* color: white; */
+}
+
+.label-input span .ant-input:placeholder-shown {
+  transform: translateY(1rem);
+  text-align: start;
+}
+
+.label-input span .ant-input {
+  transform: translateY(1rem);
+  text-align: start;
+}
+
+@media only screen and (max-width: 992px) {
+  .borderBottom {
+    border-bottom: 1px solid #b23232;
+    border-right: none;
+    padding-bottom: 20px;
+  }
+
+  .supplyView {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,48 @@
+.text-info h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.text-info p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.text-info ul li {
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.text-info ul li h5 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.text-info ul li h5 span {
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.text-info h5 span {
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.text-info h5 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.text-info ul h3 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: start;
+}

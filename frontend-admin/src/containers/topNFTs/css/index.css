@@ -1,0 +1,43 @@
+.webtable {
+  display: block;
+}
+
+.mobtable {
+  display: none;
+}
+
+.dropdowmStyle {
+  background-color: #f1f0f0 !important;
+  border: none !important;
+  color: #9fa2b4 !important;
+}
+
+.dropdowmStyle:hover {
+  color: #9fa2b4 !important;
+}
+
+.optionsMobView {
+  display: none;
+}
+
+.optionsWebView {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .webtable {
+    display: none;
+  }
+
+  .mobtable {
+    display: block;
+  }
+
+  .optionsMobView {
+    display: block;
+  }
+
+  .optionsWebView {
+    display: none;
+  }
+}

@@ -1,0 +1,173 @@
+.quantityStep {
+  margin-top: 2rem;
+}
+
+.quantityStepMainWrapper {
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+}
+
+.quantitycontentDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.quantityleftDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.quantityleftDivText {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #c73a3a;
+  margin: 0;
+}
+.quantityleftDivSubText {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000;
+  margin: 0;
+}
+
+.quantityImg {
+  width: 88px;
+  height: 88px;
+  border-radius: 50px;
+}
+
+.quantityrightDiv {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.quantitytextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 2;
+}
+
+.checkIcon {
+  color: #1aae17 !important;
+  margin-top: 12px !important;
+}
+
+.quantityBottomDiv {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quanitityBottomLeftDiv {
+  border: 1px solid #bbbbbb;
+  border-radius: 20px;
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.quanitityBottomRightDiv {
+  flex: 1;
+}
+
+.selectQuantity {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 41px;
+  color: #2f2f2f;
+  margin: 0;
+  margin-left: 80px;
+}
+
+.quanitityBottomRightDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.numberField {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #2f2f2f;
+  width: 100px;
+  border: none;
+}
+
+.goBtn {
+  background: linear-gradient(180deg, #df4747 0%, #8a1818 100%);
+  border-radius: 38.5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+  border: none;
+  width: 109px;
+  height: 77px;
+}
+
+.quantitytextContainer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceText {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #2f2f2f;
+  margin: 0;
+}
+
+.bottomPriceText {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+  color: #2f2f2f;
+  margin-top: 5px;
+}
+
+.dollarSpan {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+  color: #2f2f2f;
+}

@@ -1,0 +1,25 @@
+.about-us-container {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us {
+  width: 70%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.socialIcons {
+  background: #b13232;
+  border-radius: 60px;
+  width: 1000px;
+  height: 100px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .about-us {
+    width: 100%;
+  }
+}

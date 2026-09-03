@@ -1,0 +1,146 @@
+.main-wrapper {
+  /* overflow: hidden; */
+  /* min-height: 235px;
+  background: #ffffff;
+  border: 0.5px solid #00cea2;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 0.5rem 1rem; */
+}
+
+.main-wrapper h5 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-wrapper p {
+  color: #b0b0b0;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.top-title {
+  color: #ffffff !important;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.info h5 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info p {
+  color: #b0b0b0;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.balance-info {
+  margin-top: 1.5rem;
+  border: 0.5px solid lightgray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.input-field-div {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 0.5px solid lightgray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.input-field-div input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.bid-btn {
+  margin-top: 2rem;
+  width: 100%;
+  background: linear-gradient(180deg, #df4747 0%, #8a1818 100%);
+  border-radius: 11px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  padding: 15px 0px;
+}
+
+.drop-down-div {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.table-div {
+  margin-top: 0.5rem;
+}
+
+.table-div .ant-table-pagination.ant-pagination {
+  display: none;
+}
+
+.table-div .ant-table-wrapper .ant-table {
+  background-color: transparent;
+  border: 0.5px solid lightgray;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.table-div .ant-table-wrapper .ant-table-tbody > tr > th,
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-bottom: 0.4px solid #868686 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  color: #b0b0b0;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th,
+.ant-table-wrapper .ant-table-thead > tr > td {
+  background-color: transparent !important;
+  border-bottom: 0.4px solid #868686 !important;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.table-div .ant-table-wrapper .ant-table-tbody > tr.ant-table-row:hover > th,
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > th.ant-table-cell-row-hover
+  > td.ant-table-cell-row-hover {
+  background-color: transparent !important;
+}
+
+.table-bordered > :not(caption) > * {
+  color: #ffffff;
+}
+
+.anticon svg {
+  color: #ffffff;
+}

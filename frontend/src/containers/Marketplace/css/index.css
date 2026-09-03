@@ -1,0 +1,109 @@
+.search-wrapper .ant-input {
+  padding: 8px 11px !important;
+}
+
+.search-btn {
+  background: linear-gradient(180deg, #d44141 0%, #942626 100%);
+  border-radius: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  padding: 7px 35px;
+  border: none;
+}
+
+.search-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.filter-wrapper {
+  background: #2b2b2b;
+  border-radius: 16px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.marketplace-select-field .ant-select-arrow .anticon {
+  color: #d23e3e !important;
+}
+
+.marketplace-select-field .ant-select-selector {
+  border-radius: 16px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b2b2b2 !important;
+}
+
+.marketplace-select-field .ant-select {
+  border: none !important;
+  border-radius: 16px !important;
+  /* padding: 40px !important; */
+}
+
+.marketplace-select-field .ant-select-arrow {
+  right: 9px;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.marketplace-selct-div {
+  background: #2b2b2b !important;
+  border-radius: 16px;
+  padding: 8px 10px;
+  width: 9rem;
+}
+
+.grid-wrapper {
+  background: #2b2b2b !important;
+  border-radius: 16px;
+  padding: 8px 25px;
+  cursor: pointer;
+}
+
+/*light theme */
+
+.light .filter-wrapper {
+  background: red !important;
+  border-radius: 16px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.light .ant-select-selector {
+  border-radius: 16px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222 !important;
+}
+
+@media (max-width: 990px) {
+  .marketplace-select-field {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filter-wrapper {
+    height: 3rem;
+  }
+
+  .grid-wrapper {
+    height: 4rem;
+  }
+}
+
+.main {
+  overflow-x: hidden !important;
+  width: 99vw;
+}

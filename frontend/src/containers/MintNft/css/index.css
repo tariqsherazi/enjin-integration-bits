@@ -1,0 +1,55 @@
+.borderBottom {
+  border-right: 1px solid #b23232;
+  padding-right: 20px;
+}
+
+.supplyView {
+  margin-left: 80px;
+}
+
+.cancelBtn {
+  border-radius: 20px !important;
+  height: 40px !important;
+  /* color: white; */
+}
+
+.label-input span .ant-input:placeholder-shown {
+  transform: translateY(1rem);
+  text-align: start;
+}
+
+.label-input span .ant-input {
+  transform: translateY(1rem);
+  text-align: start;
+}
+
+.royaltyInputField {
+  border: none !important;
+
+  border-bottom: 1px solid #d54343 !important;
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+  text-align: center;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.royaltyInputField[type="number"]::-webkit-inner-spin-button,
+.royaltyInputField[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.royaltyInputField:focus {
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 992px) {
+  .borderBottom {
+    border-bottom: 1px solid #b23232;
+    border-right: none;
+    padding-bottom: 20px;
+  }
+
+  .supplyView {
+    margin-left: 0px;
+  }
+}

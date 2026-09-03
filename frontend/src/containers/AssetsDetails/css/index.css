@@ -1,0 +1,183 @@
+.name-field {
+  width: 100%;
+  border-bottom: 1px solid rgba(165, 164, 164, 0.3);
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.name-field span {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #b63131;
+}
+
+.name-field input {
+  border: none;
+  background-color: transparent;
+  /* margin-bottom: 1rem; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #cccccc;
+  width: 93%;
+}
+
+.light-field input {
+  border: none;
+  background-color: transparent;
+  /* margin-bottom: 1rem; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #222222;
+  width: 93%;
+}
+
+.name-field input:focus {
+  border: none;
+  outline: none;
+}
+
+.light-field input:focus {
+  border: none;
+  outline: none;
+}
+
+.name-field input::placeholder {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #cccccc;
+}
+
+.assettype-wrapper h5 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  margin-top: 3rem;
+  color: #cb3c3c;
+}
+
+.assettype-wrapper .ant-select-arrow .anticon {
+  color: #d23e3e !important;
+  font-size: 20px;
+  font-weight: bolder !important;
+}
+
+.assettype-wrapper .ant-select {
+  background-color: #141414 !important;
+  border: none !important;
+  opacity: 1 !important;
+}
+
+.assettype-wrapper .ant-select-selector {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: #cccccc;
+}
+
+.supply-wrapper h5 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  margin-top: 3rem;
+  color: #ffffff;
+}
+
+.supply-wrapper input::placeholder {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #cccccc;
+}
+
+.footer-text p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  margin-top: 3rem;
+  color: #ffffff;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.cancel-btn {
+  background: linear-gradient(180deg, #c54141 0%, #971f1f 100%);
+  border-radius: 11px;
+  border: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 60px;
+  color: #ffffff;
+}
+
+.create-btn {
+  border-radius: 11px;
+  background: transparent;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 5px 20px;
+  color: #ffffff;
+  border: 1px solid #c54141;
+}
+
+/*light theme */
+
+.assettype-light h5 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  margin-top: 3rem;
+  color: #cb3c3c;
+}
+
+.assettype-light .ant-select-selector {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: #cccccc;
+}
+
+.assettype-light .ant-select {
+  background-color: #f5f5f5 !important;
+  border: none !important;
+  opacity: 1 !important;
+}

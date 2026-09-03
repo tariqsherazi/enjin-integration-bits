@@ -1,0 +1,47 @@
+.userNameView {
+    margin-left: 50px;
+}
+
+.profileIconStyle {
+    border: 1px solid #A82929;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionsView{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .profileImageContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .userNameView {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .profileInformationBorder{
+        display: none;
+    }
+
+    .profileInformationView{
+        justify-content: space-between;
+    }
+    .optionsView{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .profileContainer{
+        flex-direction: column;
+    }
+}

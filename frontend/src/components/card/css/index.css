@@ -1,0 +1,101 @@
+.cardContainer {
+  width: 240px;
+  background-color: #191919 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+.mintCardContainer {
+  background-color: #191919 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+.thumbView {
+  width: 60px;
+  border-radius: 30px;
+  height: 40px;
+  align-items: center;
+}
+
+.collectionBtn {
+  border: 1px solid #d54343 !important;
+  background-color: transparent !important;
+  color: #cccccc !important;
+  width: 100% !important;
+  height: 40px !important;
+  border-radius: 10px !important;
+}
+
+.price-wrapper h5 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #cccccc;
+}
+
+.price-wrapper p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  color: #cccccc;
+}
+
+.price-wrapper span {
+  color: #a22525;
+}
+
+.buybtn {
+  background: linear-gradient(180deg, #df4747 0%, #8a1818 100%);
+  border-radius: 11px;
+  width: 100%;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  padding: 8px 0px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.detail-btn {
+  border-radius: 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  padding: 8px 20px;
+  background: linear-gradient(180deg, #df4747 0%, #8a1818 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .cardContainer {
+    width: auto;
+  }
+}
+
+.stepperModal .ant-modal-content {
+  background-color: #fff !important;
+  min-height: 569px;
+}
+
+.top-btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

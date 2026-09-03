@@ -1,0 +1,23 @@
+.btnDesign {
+  color: white !important;
+  width: 100%;
+  border: none !important;
+}
+
+.btnDesign:focus {
+  border: none !important;
+}
+
+.simpleBtnDesign {
+  color: white !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  border: none !important;
+}
+.btnDesign:disabled {
+  background: gray !important;
+}
+
+.simpleBtnDesign:focus {
+  border: none !important;
+}

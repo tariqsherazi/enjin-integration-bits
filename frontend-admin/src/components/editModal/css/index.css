@@ -1,0 +1,69 @@
+.edit-modal .ant-modal-content {
+  border-radius: 10px;
+}
+.modal-wrapper {
+  margin-top: 3rem !important;
+}
+
+.inner-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem !important;
+}
+
+.main-text {
+  margin-top: 1rem !important;
+  text-align: start;
+  font-size: 16px;
+  line-height: 100%;
+  flex: 1;
+}
+
+.date-picker {
+  margin-top: 1rem;
+}
+
+.confirm-btn {
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #56b833;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-msg {
+  color: red;
+}
+
+.ant-input {
+  flex: 2;
+}
+
+.modal-datepicker {
+  background-color: transparent !important;
+  border: 1px solid #d9d9d9;
+  flex: 1;
+  width: 270px;
+  /* width: 320px !important; */
+  padding: 5px 10px;
+}
+
+.modal-datepicker :focus {
+  border: 1px solid #d9d9d9 !important;
+}
+
+.info .modal-datepicker {
+  background-color: transparent !important;
+  border: 1px solid #d9d9d9;
+  flex: 1;
+  /* width: 270px; */
+  width: 320px !important;
+  padding: 5px 10px;
+}

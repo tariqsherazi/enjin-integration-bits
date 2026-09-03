@@ -1,0 +1,130 @@
+.red-gradient {
+  background-image: linear-gradient(#f45c5c, #7e1c1c) !important;
+}
+
+.red-gradient-border {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(#f45c5c, #7e1c1c) 1;
+}
+
+.green-gradient {
+  background-image: linear-gradient(#1aae17, #46ac43) !important;
+}
+
+.pink-gradient {
+  background-image: linear-gradient(#ff99b1, #ffbacb) !important;
+}
+
+.red-gradient-color {
+  background: -webkit-linear-gradient(#f45c5c, #7e1c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.black-background {
+  /* background-color: #222222 !important; */
+  background-color: #000000 !important;
+}
+
+.light-background {
+  background-color: #f0f0f0 !important;
+}
+
+.light-background2 {
+  background-color: #e7e7e7 !important;
+}
+
+.black-background2 {
+  background-color: #141414 !important;
+}
+
+.light-background3 {
+  background-color: #c4c4c4 !important;
+}
+
+.black-background3 {
+  background-color: #464646 !important;
+}
+
+.black-background4 {
+  background-color: #282828 !important;
+}
+
+.light-border {
+  border: 1px solid #f0f0f0 !important;
+}
+
+.dark-border {
+  border: 1px solid #222222 !important;
+}
+
+.semi-bold {
+  font-weight: 600 !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.regular {
+  font-weight: 400 !important;
+}
+
+.light-grey {
+  color: #b0b0b0 !important;
+}
+
+.light-grey2 {
+  color: #cccccc !important;
+}
+
+.red {
+  color: #d54343 !important;
+}
+
+.red-background {
+  background-color: #d54343 !important;
+}
+
+.red-background2 {
+  background-color: #b13232 !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.white {
+  color: white !important;
+}
+
+.light-blue {
+  color: #73ade3 !important;
+}
+
+.light-green {
+  color: #74f086 !important;
+}
+
+.dark-grey {
+  color: #2b2b2b !important;
+}
+
+.dark-grey-bg {
+  background-color: #2b2b2b !important;
+}
+
+.white2 {
+  background-color: #f8f8f8 !important;
+}
+
+
+iframe {
+  /* position: absolute !important; */
+  width: none !important;
+  top: none !important;
+  left: none !important;
+  right: none !important;
+  z-index: -5 !important;
+}

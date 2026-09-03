@@ -1,0 +1,56 @@
+.ant-modal-content {
+    border-radius: 12px !important;
+    background-color: #222222 !important;
+}
+
+.contactInputsStyle {
+    border: none !important;
+    border-bottom: 2px solid #DCDCDC !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    margin-top: 10px !important;
+    padding-left: 45px !important;
+    color: #b0b0b0 !important;
+    font-weight: 400 !important;
+    background-color: transparent !important;
+}
+
+.contactInputsStyle:focus {
+    border-bottom: 2px solid #A62828 !important;
+    box-shadow: none !important;
+    color: #A62828 !important;
+    font-weight: 600 !important;
+}
+
+.contactInputsStyle:focus::placeholder {
+    color: #A62828 !important;
+}
+
+.inputIcon {
+    position: absolute;
+    bottom: 15px;
+    left: 11px;
+    width: 25px;
+}
+
+.msgTextArea {
+    background-color: #222222 !important;
+    color: #b0b0b0 !important;
+
+}
+
+.msgTextArea:focus {
+    border: 1px solid #DCDCDC !important;
+}
+
+.msgTextArea:hover {
+    border: 1px solid #DCDCDC !important;
+}
+
+.contactIconsView {
+    border: 1px solid #A62828;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}   

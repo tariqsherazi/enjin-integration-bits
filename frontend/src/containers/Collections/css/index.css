@@ -1,0 +1,196 @@
+.uploadView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed #b23232;
+  cursor: pointer;
+  width: 300px;
+  height: 180px;
+  justify-content: center;
+}
+
+.collectionFirstContainer {
+  padding: 70px;
+  align-items: center;
+}
+
+.searchStyle {
+  border-radius: 20px !important;
+  /* background-color: #2b2b2b !important; */
+  color: #666666 !important;
+  border: none !important;
+  padding-left: 15px !important;
+}
+
+.searchStyle::placeholder {
+  color: #666666 !important;
+}
+
+.searchStyle:focus {
+  box-shadow: none !important;
+}
+
+.tabsWrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #b2b2b2 !important;
+}
+
+.ant-tabs-tab-btn {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #b2b2b2 !important;
+}
+
+.ant-light > .ant-tabs-tab-btn {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #222222 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #b83131 !important;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  display: none !important;
+}
+
+.prevBtn {
+  background: transparent;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b73131;
+}
+
+.pagination-wrapper .anticon svg {
+  margin-top: -7px;
+}
+
+.pagination-wrapper .ant-pagination-prev {
+  background: transparent;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #b73131;
+}
+
+.pagination-wrapper .ant-pagination-next {
+  background: transparent;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #b73131;
+}
+
+.pagination-wrapper
+  .ant-pagination-jump-prev
+  .ant-pagination-item-container
+  .ant-pagination-item-ellipsis,
+.ant-pagination-jump-next
+  .ant-pagination-item-container
+  .ant-pagination-item-ellipsis {
+  color: white !important;
+}
+
+.ant-pagination-options-size-changer.ant-select {
+  display: none !important;
+}
+.ant-pagination-item {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.ant-light .ant-pagination-item {
+  background-color: transparent !important;
+  color: #222222 !important;
+}
+
+.ant-pagination-item:hover {
+  border: 1px solid #ffffff !important;
+}
+.ant-pagination-item-active a {
+  background: linear-gradient(180deg, #d34141 0%, #9f2424 100%);
+  border-radius: 2px !important;
+}
+
+.ant-pagination-item-active {
+  border: none !important;
+}
+
+.ant-pagination-item-active:hover {
+  border: none !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link:hover {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+.ant-light .ant-pagination-prev .ant-pagination-item-link {
+  background-color: transparent !important;
+  color: #222222 !important;
+}
+
+.ant-light .ant-pagination-next .ant-pagination-item-link {
+  background-color: transparent !important;
+  color: #222222 !important;
+}
+
+@media only screen and (max-width: 776px) {
+  .collectionFirstContainer {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+
+  .uploadView {
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .uploadView1 {
+    width: 100%;
+  }
+
+  .tabsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

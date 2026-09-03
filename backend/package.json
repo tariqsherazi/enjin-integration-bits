@@ -1,0 +1,52 @@
+{
+  "name": "koa-nodejs-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildMyDapp/koa-nodejs-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildMyDapp/koa-nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/BuildMyDapp/koa-nodejs-learning#readme",
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@graphql-tools/schema": "^9.0.2",
+    "@koa/cors": "^4.0.0",
+    "@koa/multer": "^3.0.2",
+    "@koa/router": "^12.0.0",
+    "@sendgrid/mail": "^7.7.0",
+    "apollo-server": "^3.10.2",
+    "apollo-server-koa": "^3.10.2",
+    "apollo-upload-server": "^7.1.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
+    "graphql-server-express": "^1.4.1",
+    "graphql-upload": "^16.0.2",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "mongoose": "^6.7.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.14",
+    "request-promise": "^4.2.6"
+  }
+}

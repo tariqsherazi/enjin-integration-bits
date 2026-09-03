@@ -1,0 +1,9 @@
+.playerView{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.videoCardMenuIcon{
+    background-color: transparent !important;
+    border: none !important;
+}

@@ -1,0 +1,17 @@
+.videoCardBtns{
+    height: 30px !important;
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .videoCardMobView{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .videoCardMobAlignment{
+        margin-top: 10px;
+        margin-right: 0px !important;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,53 @@
+.logoView {
+    background-color: #CCCCCC;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.searchStyle {
+    border-radius: 10px !important;
+    color: #fff !important;
+    border: none !important;
+    padding-left: 15px !important;
+}
+
+.searchStyle:focus {
+    box-shadow: none !important;
+}
+
+.toggleBtn {
+    display: none;
+}
+
+.headerStyle {
+    margin-left: 90px;
+}
+
+.mobMenuBar{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .webMenuBar {
+        display: none;
+    }
+
+    .mobMenuBar{
+        display: block;
+    }
+
+    .toggleBtn {
+        display: block;
+    }
+
+    .headerStyle {
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+
+    .searchStyle{
+        width: 50%;
+    }
+}

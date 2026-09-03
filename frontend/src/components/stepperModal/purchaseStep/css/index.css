@@ -1,0 +1,149 @@
+.purchaseStep {
+  margin-top: 2rem;
+}
+
+.purchaseStepMainWrapper {
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+}
+
+.purchasecontentDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.purchaseleftDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.purchaseleftDivText {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #c73a3a;
+  margin: 0;
+}
+.purchaseleftDivSubText {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000;
+  margin: 0;
+}
+
+.purchaseImg {
+  width: 88px;
+  height: 88px;
+  border-radius: 50px;
+}
+
+.purchaserightDiv {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.purchaseQtyText {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #2f2f2f;
+}
+
+.purchasetextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 2;
+}
+
+.purchaseCheckIcon {
+  color: #1aae17 !important;
+}
+
+.purchaseText {
+  border: 1px solid #bbbbbb;
+  border-radius: 20px;
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.purchaseTextLeftDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #bbbbbb;
+}
+.purchaseTextRightDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalPrice {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #2f2f2f;
+  margin: 0;
+}
+
+.purchaseNumber {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #2f2f2f;
+  margin: 0;
+}
+
+.purchaseNumberSpan {
+  color: rgba(35, 156, 208, 1);
+}
+
+.purchaseConnectBtn {
+  display: block;
+  margin: 2rem auto 0 auto;
+  border: none;
+  background: linear-gradient(180deg, #df4747 0%, #8a1818 100%);
+  border-radius: 6.5px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 31px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.successModal .ant-modal-content {
+  background-color: #fff !important;
+  box-shadow: 0px 0px 80px rgba(130, 127, 127, 0.7);
+}

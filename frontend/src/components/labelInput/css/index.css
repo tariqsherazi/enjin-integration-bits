@@ -1,0 +1,22 @@
+.labelInputStyle {
+    border: none !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    text-align: center;
+    background-color: transparent !important;
+}
+
+.labelInputStyle:focus {
+    box-shadow: none !important;
+}
+
+.inputLabel {
+    width: 180px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .inputLabel {
+        width: 250px;
+    }
+}

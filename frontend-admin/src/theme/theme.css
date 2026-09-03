@@ -1,0 +1,191 @@
+.center {
+    align-items: center !important;
+}
+
+.dark-blue {
+    color: #10101c !important;
+}
+
+.bg-dark-blue {
+    background-color: #10101c !important;
+}
+
+.dark-blue2 {
+    color: #161624 !important;
+}
+
+.bg-dark-blue2 {
+    background-color: #161624 !important;
+}
+
+.dark-blue3 {
+    color: #222235 !important;
+}
+
+.bg-dark-blue3 {
+    background-color: #222235 !important;
+}
+
+.blue {
+    color: #428DFF !important;
+}
+
+.bg-blue {
+    background-color: #428DFF !important;
+}
+
+.bg-orange {
+    background-color: #E33922 !important;
+}
+
+.bg-light-blue {
+    background-color: #DAF2FD !important;
+}
+
+.red {
+    color: #b32f2f !important;
+}
+
+.bg-red {
+    background-color: #b32f2f !important;
+}
+
+.red2 {
+    color: #F26464 !important;
+}
+
+.red3 {
+    color: #CC2323 !important;
+}
+
+.bg-red2 {
+    background-color: #F26464 !important;
+}
+
+.yellow {
+    color: #FFB648 !important;
+}
+
+.light-grey {
+    color: #B9B9B9 !important;
+}
+
+.light-grey2 {
+    color: #777777 !important;
+}
+
+.green {
+    color: #4BDE97 !important;
+}
+
+.red-border {
+    border: 1px solid #F26464 !important;
+}
+
+.red-border-bottom {
+    border-bottom: 1px solid #F26464 !important;
+}
+
+.grey-border {
+    border: 1px solid #DFE0EB !important;
+}
+
+.grey-border2 {
+    border: 1px solid #313148 !important;
+}
+
+.grey-border-bottom {
+    border-bottom: 1px solid #313148 !important;
+}
+
+.light-grey-border-bottom {
+    border-bottom: 1px solid #BABACC !important;
+}
+
+.grey-border-top {
+    border-top: 1px solid #313148 !important;
+}
+
+.green-border {
+    border: 1px solid #79C62D !important;
+}
+
+.green2 {
+    color: #79C62D !important;
+}
+
+.bg-grey2 {
+    background-color: #F6F2F2 !important;
+}
+
+.bg-grey3 {
+    background-color: #EFEBEB !important;
+}
+
+.bg-grey4 {
+    background-color: #FDFAFA !important;
+}
+
+.bg-green {
+    background-color: #3BB447 !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.bg-white2 {
+    background-color: #F0F0F0 !important;
+}
+
+.purple {
+    color: #4B506D !important;
+}
+
+.purple2 {
+    color: #24327C !important;
+}
+
+.black {
+    color: black !important;
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.pink {
+    color: #B52269 !important;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.radius1 {
+    border-radius: 10px !important;
+}
+
+.radius2 {
+    border-radius: 20px !important;
+}
+
+.semi-bold {
+    font-weight: 600 !important;
+}
+
+.regular {
+    font-weight: 400 !important;
+}
+
+.blue-gradient {
+    background-image: linear-gradient(#009CDA, #00FF85) !important;
+}
+
+.orange-gradient {
+    background-image: linear-gradient(#F18724, #FA09FF) !important;
+}

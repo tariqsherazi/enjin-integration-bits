@@ -1,0 +1,41 @@
+.successModal {
+  background-color: #fff !important;
+  padding: 1rem 1.5rem 2.5rem 1.5rem;
+  border-radius: 22px;
+}
+
+.paymentConfirmedText {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #0a0a0a;
+  margin: 0;
+  margin-top: 3rem;
+  border-bottom: 2px solid #c73a3a;
+}
+
+.paymentCheckIcon {
+  color: #1aae17 !important;
+  margin-bottom: 10px;
+}
+
+.totalAmountText {
+  margin: 0;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.numberText {
+  color: rgba(199, 58, 58, 1);
+}

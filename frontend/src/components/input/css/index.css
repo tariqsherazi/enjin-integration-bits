@@ -1,0 +1,20 @@
+.inputStyle {
+    border: none !important;
+    border-bottom: 2px solid #DCDCDC !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    text-align: center;
+    color: #b0b0b0 !important;
+    font-weight:400 !important
+}
+
+.inputStyle:focus {
+    border-bottom: 2px solid #A62828 !important;
+    box-shadow: none !important;
+    color: #A62828 !important;
+    font-weight: 600 !important;
+}
+
+.inputStyle:focus::placeholder {
+    color: #A62828 !important;
+}

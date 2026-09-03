@@ -1,0 +1,44 @@
+.logoutModal {
+  border-radius: 22px;
+}
+
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.firstDiv {
+  margin-top: 2rem;
+}
+
+.flexDiv > .logOutText {
+  margin: 0;
+  color: #000;
+  font-weight: 400 !important;
+}
+.flexDiv > .logOutvalue {
+  margin: 0;
+  color: #000;
+  font-weight: 400 !important;
+}
+
+.logOutBtn {
+  background: linear-gradient(180deg, #df4747 0%, #8a1818 100%);
+  border-radius: 11px;
+  width: 100%;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  padding: 8px 0px;
+}
+
+.btnDiv {
+  margin-top: 1rem;
+}

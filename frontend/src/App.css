@@ -1,0 +1,18 @@
+.img-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 299;
+}
+
+@media (max-width: 991.98px) {
+  .img-wrapper {
+    bottom: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .img-wrapper {
+    right: 5%;
+  }
+}
